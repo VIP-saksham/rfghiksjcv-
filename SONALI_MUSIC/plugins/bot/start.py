@@ -101,16 +101,10 @@ async def start_pm(client, message: Message, _):
                 )
     else:
         out = private_panel(_)
-        baby = await message.reply_text(f"**__ᴅɪηɢ ᴅᴏηɢ.🥀__**")
-        await baby.edit_text(f"**__ᴅɪηɢ ᴅᴏηɢ..🥀__**")
-        await baby.edit_text(f"**__ᴅɪηɢ ᴅᴏηɢ...🥀__**")
-        await baby.edit_text(f"**__ᴅɪηɢ ᴅᴏηɢ....🥀__**")
-        await baby.edit_text(f"**__ᴅɪηɢ ᴅᴏηɢ.....🥀__**")
-        await baby.edit_text(f"**__sᴛᴧʀᴛɪηɢ.❤️‍🔥__**")
+        baby = await message.reply_text(f"**ACE • Systems Waking Up…**")
+        await baby.edit_text(f"**ACE • Igniting Core Engine…**")
+        await baby.edit_text(f"**ACE • Optimizing Your Experience…**")
         await baby.edit_text(f"**__sᴛᴧʀᴛɪηɢ..❤️‍🔥__**")
-        await baby.edit_text(f"**__sᴛᴧʀᴛɪηɢ...❤️‍🔥__**")
-        await baby.edit_text(f"**__sᴛᴧʀᴛɪηɢ....❤️‍🔥__**")
-        await baby.edit_text(f"**__sᴛᴧʀᴛɪηɢ.....❤️‍🔥__**")
         await baby.edit_text(f"**__ʙσᴛ sᴛᴧʀᴛєᴅ.💤__**")
         await baby.edit_text(f"**__ʙσᴛ sᴛᴧʀᴛєᴅ..💤__**")
         await baby.edit_text(f"**__ʙσᴛ sᴛᴧʀᴛєᴅ...💤__**")
@@ -179,7 +173,7 @@ async def welcome(client, message: Message):
                         app.mention,
                     ),
                     reply_markup=InlineKeyboardMarkup(out),
-                    has_spoiler=True,
+                    has_spoiler=False,
                 )
                 await add_served_chat(message.chat.id)
                 await message.stop_propagation()
